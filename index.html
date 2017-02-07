@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/style.css">
+
   <title>Document</title>
 </head>
 
@@ -18,8 +19,8 @@
           <li class="main-nav__item"><a href="#">главная</a></li>
           <li class="main-nav__item"><a href="#">наши работы</a></li>
           <li class="main-nav__item"><a href="#">записаться</a></li>
-          <li class="main-nav__item"><a href="#">контакты</a></li>
           <li class="main-nav__item"><a href="#">html academy</a></li>
+          <li class="main-nav__item"><a href="#">контакты</a></li>
         </ul>
         <ul class="main-nav__user-items">
           <li class="main-nav__user-item"><a href="" title="enter" class="main-nav__user-login">вход</a></li>
@@ -73,7 +74,7 @@
           </li>
           <li class="advantages__item advantages__item--expensive slider__item">
             <h3 class="advantages__item-title">Дорого</h3>
-            <p>Наши мастера — профессионалы своего делаи не могут стоить дёшево. К тому же, разве цена не даёт определённый статус?</p>
+            <p>Наши мастера — профессионалы своего дела и не могут стоить дёшево. К тому же, разве цена не даёт определённый статус?</p>
           </li>
         </ul>
         <div class="advantages__toggles slider__toggles">
@@ -85,15 +86,15 @@
     </section>
     <section class="news">
       <div class="news__wraper">
-        <h2 class="news__title"></h2>
+        <h2 class="news__title">Новости и акции</h2>
         <ul class="news__items">
-          <li class="news_item"><time class="news_date" datetime="2015-09-29"><b>29</b>сент</time>
+          <li class="news__item"><time class="news_date" datetime="2015-09-29"><b>29</b>сент</time>
             <p>Нам наконец завезли Ягермайстер! Теперь вы можете пропусить стаканчик во время стрижки.</p>
           </li>
-          <li class="news_item"><time class="news_date" datetime="2015-09-19"><b>19</b>сент</time>
+          <li class="news__item"><time class="news_date" datetime="2015-09-19"><b>19</b>сент</time>
             <p>В нашей команде пополнение, Борис «Бритва» Стригунец, пополнил наши стройные ряды. Спешите записаться!</p>
           </li>
-          <li class="news_item"><time class="news_date" datetime="2015-09-09"><b>9</b>сент</time>
+          <li class="news__item"><time class="news_date" datetime="2015-09-09"><b>9</b>сент</time>
             <p>Все дорожает, а наши стрижки нет! Как так? Приходите, постригитесь и узнаете, в чем здесь подвох!</p>
           </li>
         </ul>
@@ -104,38 +105,34 @@
       <div class="reviews__wraper slider">
         <h2 class="reviews__title">Отзывы о нас</h2>
         <a href="#" class="reviews__write btn">Оставить свой</a>
-
-        <input type="radio" class="slider__input" name="advantages" id="advantages-input-1" checked>
-        <input type="radio" class="slider__input" name="advantages" id="advantages-input-2">
-        <input type="radio" class="slider__input" name="advantages" id="advantages-input-3">
-        <div class="review__items">
-          <blockquote class="review__item slider__item">
-            <div class="review__author-foto">
+        <div class="reviews__items">
+          <blockquote class="reviews__item slider__item">
+            <div class="reviews__author-foto">
               <img src="img/pic-travis.jpg" alt="фото Трэвиса Баркера">
             </div>
-            <cite class="review__author-name">Трэвис Баркер</cite>
+            <cite class="reviews__author-name">Трэвис Баркер</cite>
             <p>Спасибо за лысину! Был проездом в Москве, заскочил побриться, чтобы было видно новую татуировку!</p>
           </blockquote>
 
-          <blockquote class="review__item slider__item">
-            <div class="review__author-foto">
-              <img src="img/pic-travis.jpg" alt="фото Джона Смита">
+          <blockquote class="reviews__item slider__item">
+            <div class="reviews__author-foto">
+              <img src="img/travis.jpg" alt="фото Джона Смита">
             </div>
-            <cite class="review__author-name">Джон Смит</cite>
+            <cite class="reviews__author-name">Джон Смит</cite>
             <p>Отличную прическу вы мне сделали ребята.</p>
           </blockquote>
 
-          <blockquote class="review__item slider__item">
-            <div class="review__author-foto">
-              <img src="img/pic-travis.jpg" alt="фото Ивана Бородайло">
+          <blockquote class="reviews__item slider__item">
+            <div class="reviews__author-foto">
+              <img src="img/travis.jpg" alt="фото Ивана Бородайло">
             </div>
-            <cite class="review__author-name">Иван Бородайло</cite>
+            <cite class="reviews__author-name">Иван Бородайло</cite>
             <p>В Бородинском ваша борода в надежных руках!</p>
           </blockquote>
         </div>
-        <button class="review__prev" type="button">Предыдущий отзыв</button>
-        <button class="review__next" type="button">Следующий отзыв</button>
-        <div class="review__toggles slider__toggles">
+        <button class="reviews__prev" type="button">Предыдущий отзыв</button>
+        <button class="reviews__next" type="button">Следующий отзыв</button>
+        <div class="reviews__toggles slider__toggles">
           <label for="reviews-input-1" class="slider__toggle">1</label>
           <label for="reviews-input-2" class="slider__toggle">2</label>
           <label for="reviews-input-3" class="slider__toggle">3</label>
